@@ -1,0 +1,154 @@
+body {
+	margin:0px; padding:0px;
+	background-color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #FFF;
+	background-image:url('../img/bg01.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+#container {
+	width:906px;
+	display:inline;
+	position:absolute;
+	left:50%;
+	right:50%;
+	margin: 40px -453px 100px -453px;
+}
+
+#header {
+	height:160px;
+	width:300px;
+	position:relative;
+	left:303px;
+	text-align:center;
+}
+
+#main_top {
+	background:url('../img/container_top.png') no-repeat;
+	width:906px;
+	height:14px;
+}
+
+#main {
+	background:url('../img/container_bg.png') repeat-y;
+	width:906px;
+	padding-right:3px;
+	padding-top:8px;
+	padding-left:34px;
+	display:block;
+}
+
+#main_2 {
+	background:url('../img/container_bg.png') repeat-y;
+	width:906px;
+	height:65px;
+	display:block;
+}
+
+#main_bottom {
+	background:url('../img/container_bot.png') no-repeat;
+	width:906px;
+	height:14px;
+}
+
+.newsentry {
+	width:643px;
+}
+
+h1#newsheading {
+	font-size: 32px;
+}
+
+h1#newsdetails {
+	display:inline;
+	font-size: 13px;
+}
+
+a#detailslink {
+	display:inline;
+	font-size: 13px;
+	color:#49d1e7;
+	text-decoration: none;
+}
+
+a#detailslink:hover {
+	display:inline;
+	font-size: 13px;
+	color:#49d1e7
+	text-decoration: none;	
+}
+
+.newstext {
+	font-size: 14px;
+}
+
+#menu_right {
+	width:181px;
+	left:703px;
+	position:absolute;
+	padding-left:22px;
+}
+
+ul#menu li {
+	margin:0px;	
+	padding:0px;
+	list-style:none;
+	font-size:14px;
+	text-transform:uppercase;
+}
+ul#menu li a {
+	text-decoration:none;
+	color:#FFF;
+}
+ul#menu li a:hover {
+	text-decoration:none;
+	color:#49d1e7;
+}
+
+#serverlist_right {
+	width:181px;
+	position:absolute;
+	padding-left:22px;
+	left: 703px;
+}
+
+ul#serverlist li {
+	margin:0px;	
+	padding:0px;
+	list-style:none;
+	margin-right:10px;
+	font-size:14px;
+	text-transform:uppercase;
+}
+ul#serverlist li a {
+	text-decoration:none;
+	color:#FFF;
+}
+ul#serverlist li a:hover {
+	text-decoration:none;
+	color:#49d1e7;
+}
+
+h2.online {
+	font-size:14px;
+	text-decoration:none;
+	color:#21a406;
+	display: inline;
+}
+
+h2.offline {
+	font-size:14px;
+	text-decoration:none;
+	color:#d20707;
+	display:inline;
+}
+
+#footer {
+	font-size:14px;
+	color:#a9a9a9;
+	text-align:center;
+	margin-top:5px;
+	margin-bottom:50px;
+}
