@@ -4,4 +4,6 @@ $this->load->view('includes/header');
 
 $this->load->view($main_content);
 
-$this->load->view('includes/footer');
+$data['query'] = $this->db->get('game_servers');
+
+$this->load->view('includes/footer',$data);

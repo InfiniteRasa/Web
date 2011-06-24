@@ -1,9 +1,12 @@
 <div id="main_2">
 			<div id="serverlist_right">
 				<ul id="serverlist">
-					<li><a href="#">Server 1 : <h2 class="online">Online</h2></a></li>
-					<li><a href="#">Server 2 : <h2 class="offline">Offline</h2></a></li>
-					<li><a href="#">Server 3 : <h2 class="online">Online</h2></a></li>
+					
+					<?php foreach($query->result() as $row): ?>
+						<?php $server_id = $row->server_id; ?>
+						<?php echo ($row->status == true) ? ('<li><a href="#">Server '.$server_id.' : <h2 class="online">Online</h2></a></li>') : ('<li><a href="#">Server '.$server_id.' : <h2 class="offline">Offline</h2></a></li>'); ?>	
+					<?php endforeach; ?>
+					
 				</ul>
 			</div>
 		</div>
@@ -12,7 +15,7 @@
 		</div>
 		
 		<div id="footer">
-			Blah Blah Footer Test
+			Whatever is written here is the footer.
 		</div>
 	</div>
 </body>
