@@ -76,7 +76,7 @@ a#detailslink {
 a#detailslink:hover {
 	display:inline;
 	font-size: 13px;
-	color:#49d1e7
+	color:#49d1e7;
 	text-decoration: none;	
 }
 
