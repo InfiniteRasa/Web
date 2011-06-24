@@ -1,0 +1,10 @@
+This is the premade website that will ship with the server as soon as a release is out.
+
+To get it up and running:
+-Download it (duh)
+-Set up a MySQL Server, create the "infrasa" database
+-change your db connection settings in /application/config/database.php
+
+That should pretty much be it.
+This site runs on the CodeIgniter PHP Framework. If you want to contribute and need any help, 
+feel free to just ask and I'll be happy to explain.
