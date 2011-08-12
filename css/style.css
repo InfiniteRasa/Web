@@ -3,7 +3,7 @@ body {
 	background-color:#FFF;
 	font-family:Arial, Helvetica, sans-serif;
 	color: #FFF;
-	background-image:url('../img/bg01.jpg');
+	background-image:url('../img/bg/rotate.php');
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 }

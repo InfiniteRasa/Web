@@ -4,6 +4,7 @@
 	<title>Infinite Rasa</title>
 	<link rel='stylesheet' type='text/css' media='all' href='<?php echo base_url(); ?>/css/reset.css' />
 	<link rel='stylesheet' type='text/css' media='all' href='<?php echo base_url(); ?>/css/style.css' />
+	<script src="<?php echo base_url(); ?>/js/jquery-1.6.2.min.js" type="text/javascript"></script>
 </head>
 
 <body>
