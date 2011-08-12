@@ -57,11 +57,6 @@ body {
 	width:643px;
 }
 
-.formwrapper {
-	width:643px;
-	height: 600px;
-}
-
 h1#newsheading {
 	font-size: 32px;
 }
@@ -83,6 +78,11 @@ a#detailslink:hover {
 	font-size: 13px;
 	color:#49d1e7;
 	text-decoration: none;	
+}
+
+#formwrapper {
+	height:150px;
+	width:300px;
 }
 
 .newstext {

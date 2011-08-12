@@ -5,7 +5,8 @@
 					
 					<?php foreach($query->result() as $row): ?>
 						<?php $server_id = $row->name; ?>
-						<?php echo ($row->status == true) ? ('<li><a href="#">'.$server_id.' : <h2 class="online">Online</h2></a></li>') : ('<li><a href="#">'.$server_id.' : <h2 class="offline">Offline</h2></a></li>'); ?>	
+						<?php echo ($row->status == true) ? ('<li><a href="#">'.$server_id.' : <h2 class="online">Online</h2></a></li>') : 
+						('<li><a href="#">'.$server_id.' : <h2 class="offline">Offline</h2></a></li>'); ?>	
 					<?php endforeach; ?>
 					
 				</ul>
