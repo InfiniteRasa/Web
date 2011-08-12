@@ -7,10 +7,20 @@
 </head>
 
 <body>
-	<div id="container">
-		<div id="header">
+	<div id='container'>
+		<div id='header'>
 			
 		</div>
 		
-		<div id="main_top">
+		<div id='main_top'>
 		</div>
+		
+<div id='main'>
+	<div id='menu_right'>
+		<ul id='menu'>
+			<li><a href='<?php echo base_url(); ?>'>Home</a></li>
+			<li><a href="<?php echo base_url(); ?>index.php/register/">Register</a></li>
+			<li><a href='#'>About Us</a></li>
+		</ul>
+	</div>
+	

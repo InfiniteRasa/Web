@@ -57,6 +57,11 @@ body {
 	width:643px;
 }
 
+.formwrapper {
+	width:643px;
+	height: 600px;
+}
+
 h1#newsheading {
 	font-size: 32px;
 }

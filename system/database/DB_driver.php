@@ -40,7 +40,7 @@ class CI_DB_driver {
 	var $dbcollat		= 'utf8_general_ci';
 	var $autoinit		= TRUE; // Whether to automatically initialize the DB
 	var $swap_pre		= '';
-	var $port			= '3306';
+	var $port			= '10061';
 	var $pconnect		= FALSE;
 	var $conn_id		= FALSE;
 	var $result_id		= FALSE;
